@@ -1,0 +1,19 @@
+
+# Ignore bundle
+/.bundle
+
+# Ignore database file
+/config/database.yml
+
+# Ignore all folder that hold saving file
+/public/system/*
+/public/pdf
+/public/excel
+/public/img
+
+# Ignore all logfiles and tempfiles.
+/log
+/log/*.log
+/tmp
+nginx-error.log
+unicorn.logs
